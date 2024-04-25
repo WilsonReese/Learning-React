@@ -8,7 +8,7 @@ export default function App() {
       <Text>Anchor down.</Text>
       <Text>Anchor down.</Text>
       <Profile/>
-      <Text>Test.</Text>
+      <Text>Changed this for the branch test.</Text>
     </>
   );
 }
