@@ -7,7 +7,7 @@ export default function App() {
       <Text>Anchor down.</Text>
       <Text>Anchor down.</Text>
       <Text>Anchor down.</Text>
-      <Profile></Profile>
+      <Profile/>
       <Text>Test.</Text>
     </>
   );
