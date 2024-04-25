@@ -20,5 +20,7 @@ export const style = StyleSheet.create({
     borderRadius: "50%",
   },
 
-  header: {},
+  header: {
+    flexDirection: "row",
+  },
 });
