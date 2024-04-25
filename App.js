@@ -6,7 +6,7 @@ import { style } from "./App.style";
 export default function App() {
   return (
     <SafeAreaProvider>
-      <SafeAreaView style={{flex: 1, backgroundColor: "white"}}>
+      <SafeAreaView style={{flex: 1, alignItems: "center", backgroundColor: "white"}}>
         <View style={style.box1}/>
         <View style={style.box2}/>
         <View style={style.box3}/>
