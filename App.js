@@ -6,7 +6,7 @@ import { style } from "./App.style";
 export default function App() {
   return (
     <SafeAreaProvider>
-      <SafeAreaView>
+      <SafeAreaView style={{backgroundColor: "green", flex: 1}}>
         <Text style={style.title}>Anchor down.</Text>
         <View style={style.square}/>
       </SafeAreaView>
