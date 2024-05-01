@@ -1,5 +1,6 @@
 import { style } from "./ProfileCard.style";
-import { View, Text, Image } from "react-native";
+import { View, Text, Image, TouchableOpacity } from "react-native";
+import { FontAwesome6 } from "@expo/vector-icons";
 
 export function ProfileCard() {
   return (
@@ -16,7 +17,17 @@ export function ProfileCard() {
           <Text>#thegrindneverstops</Text>
         </View>
       </View>
-      <View>{/* social icons */}</View>
+      <View style={style.social}>
+        <TouchableOpacity style={style.socialBtn}>
+          <FontAwesome6 name="x-twitter" size={24} color="black" />
+        </TouchableOpacity>
+        <TouchableOpacity style={style.socialBtn}>
+          <FontAwesome6 name="linkedin-in" size={24} color="#0A66C2" />
+        </TouchableOpacity>
+        <TouchableOpacity style={style.socialBtn}>
+          <FontAwesome6 name="instagram" size={24} color="#c13584" />
+        </TouchableOpacity>
+      </View>
     </View>
   );
 }

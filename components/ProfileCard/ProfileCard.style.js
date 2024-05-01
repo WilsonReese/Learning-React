@@ -37,5 +37,16 @@ export const style = StyleSheet.create({
     flexDirection: "row",
   },
 
-  social: {},
+  social: {
+    flexDirection: "row",
+    justifyContent: "space-evenly",
+    paddingHorizontal: 20,
+    paddingTop: 15,
+  },
+
+  socialBtn: {
+    borderRadius: "50%",
+    padding: 10,
+    backgroundColor: "#eee",
+  },
 });
