@@ -11,8 +11,8 @@ export function ProfileCard() {
             source={{ uri: "https://i.pravatar.cc/300" }}
           />
         </View>
-        <View>
-          <Text>Reese Wilson</Text>
+        <View style={style.texts}>
+          <Text style={style.name}>Reese Wilson</Text>
           <Text>#thegrindneverstops</Text>
         </View>
       </View>

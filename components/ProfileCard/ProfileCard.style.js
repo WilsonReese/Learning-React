@@ -20,7 +20,19 @@ export const style = StyleSheet.create({
     borderRadius: "50%",
   },
 
+  name: {
+    fontSize: 24,
+    fontWeight: "bold",
+    marginBottom: 5,
+  },
+
+  texts: {
+    flex: 1,
+  },
+
   header: {
     flexDirection: "row",
   },
+
+  social: {},
 });
