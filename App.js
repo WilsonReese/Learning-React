@@ -14,10 +14,7 @@ export default function App() {
           padding: 20,
         }}
       >
-        <ProfileCard />
-        <ProfileCard />
-        <ProfileCard />
-        <ProfileCard />
+        <ProfileCard firstName={"Cool"} lastName={"Boy"} age={28}/>
       </SafeAreaView>
     </SafeAreaProvider>
   );
