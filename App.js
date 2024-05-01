@@ -15,6 +15,9 @@ export default function App() {
         }}
       >
         <ProfileCard />
+        <ProfileCard />
+        <ProfileCard />
+        <ProfileCard />
       </SafeAreaView>
     </SafeAreaProvider>
   );
