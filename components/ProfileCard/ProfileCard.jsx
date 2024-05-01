@@ -2,7 +2,7 @@ import { style } from "./ProfileCard.style";
 import { View, Text, Image, TouchableOpacity } from "react-native";
 import { FontAwesome6 } from "@expo/vector-icons";
 
-export function ProfileCard({firstName, lastName, age}) {
+export function ProfileCard({ firstName, lastName, age }) {
   return (
     <View style={style.container}>
       <View style={style.header}>
