@@ -2,7 +2,7 @@ import { style } from "./ProfileCard.style";
 import { View, Text, Image, TouchableOpacity } from "react-native";
 import { FontAwesome6 } from "@expo/vector-icons";
 
-export function ProfileCard({ firstName, lastName, age }) {
+export function ProfileCard({ firstName, lastName, age, children }) {
   return (
     <View style={style.container}>
       <View style={style.header}>
@@ -14,7 +14,7 @@ export function ProfileCard({ firstName, lastName, age }) {
         </View>
         <View style={style.texts}>
           <Text style={style.name}>
-            {firstName} {lastName}
+            {children} {firstName} {lastName}
           </Text>
           <Text>#thegrindneverstops | Age: {age}</Text>
         </View>
