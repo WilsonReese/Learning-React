@@ -18,9 +18,9 @@ export const style = StyleSheet.create({
   },
 
   avatar: {
-    height: 70,
-    width: 70,
-    borderRadius: "50%",
+    height: 50,
+    width: 50,
+    borderRadius: 25, // border radius of 50% would throw a warning, because it needs to be a number, but it still worked. Went ahead and changed it anyway.
   },
 
   name: {
